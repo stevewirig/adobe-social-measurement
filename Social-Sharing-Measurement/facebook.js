@@ -1,9 +1,11 @@
 /* facebookSocialSharing
 
-   Leverages event handlers as described at - https://developers.facebook.com/docs/guides/web/
-   This example uses a JavaScript interval methods to wait for the Facebook objects to load  -  http://www.w3schools.com/jsref/met_win_setinterval.asp
-   This code should go in the plugins section of your Adobe Analytics s_code.js file
- 
+    Leverages event handlers as described at - https://developers.facebook.com/docs/guides/web/
+    This example uses a JavaScript interval methods to wait for the Facebook objects to load  -  http://www.w3schools.com/jsref/met_win_setinterval.asp
+    This code should go in the plugins section of your Adobe Analytics s_code.js file
+    *Dependency split function or you can write your own method to split strings.
+
+
  */
 
 
@@ -63,7 +65,7 @@ s.facebookSocialSharing=function(a,b,c,d,e,f,g,h){
         s.events=n;
         if(a){s[a]=m;}
         
-        //the 'tl' function will 
+        //the 'tl' function will send in the data
         s.tl(this,'o',m);
                             
         //reset page vars back
