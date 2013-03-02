@@ -1,8 +1,10 @@
 /* googleSocialSharing
 
-   Leverages event handlers as described at - https://developers.google.com/+/web/+1button/
-   This code should go in the plugins section of your Adobe Analytics s_code.js file
-   *Dependency split function or you can write your own method to split strings.
+     Copyright 1996-2013 Adobe, Inc. All Rights Reserved
+
+     Leverages event handlers as described at - https://developers.google.com/+/web/+1button/
+     This code should go in the plugins section of your Adobe Analytics s_code.js file
+     *Dependency split function or you can write your own method to split strings.
  
      This plugin uses the following instantiation of the Google Plus One button on the page level and uses a global method 'gSP'
      

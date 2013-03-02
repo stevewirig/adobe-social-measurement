@@ -1,9 +1,11 @@
 /* twitterSocialSharing
 
-   Leverages event handlers as described at - https://dev.twitter.com/docs/tweet-button
-   This example uses a JavaScript interval methods to wait for the Twitter objects to load  -  http://www.w3schools.com/jsref/met_win_setinterval.asp
-   This code should go in the plugins section of your Adobe Analytics s_code.js file
-   *Dependency split function or you can write your own method to split strings.
+    Copyright 1996-2013 Adobe, Inc. All Rights Reserved
+
+    Leverages event handlers as described at - https://dev.twitter.com/docs/tweet-button
+    This example uses a JavaScript interval methods to wait for the Twitter objects to load  -  http://www.w3schools.com/jsref/met_win_setinterval.asp
+    This code should go in the plugins section of your Adobe Analytics s_code.js file
+    *Dependency split function or you can write your own method to split strings.
  
  */
 
